@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 1rem;
+    color: black;
+    font-family: 'lobster', cursive;
+}
+.navbar-brand:hover{
+    color: brown;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'rubik', sans-serif;
+}
+.nav-link:hover{
+    color: brown;
+}
+.nav-item:hover{
+    color: brown;
+    cursor: pointer;
+}
+.search{
+    height: 40px;
+    width: 90%;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid red;
+    margin-right: -35px;
+    font-family: 'rubik', sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 80%;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+}
+.main{
+    background: url(boxvd.mp4);
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    background-position:50% 50%;
+    background-position: center center;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 400;
+    color: antiquewhite;
+    text-align: left;
+}
+.main h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: antiquewhite;
+    text-align: left;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.card:hover{
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.news{
+    background-color: black;
+    color: aliceblue;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: aliceblue;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: aliceblue;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+CSS code for form 
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.label {
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+Footer css
+footer {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
